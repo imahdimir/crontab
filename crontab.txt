@@ -23,12 +23,8 @@
 
 # m h  dom mon dow   command
 
+# VARS
+auto=bash /root/auto-run-bash/main.sh
 
-# ENV VARS
-hostname=teias
-auto=bash /home/mahdi/Downloads/GitHub/auto-run-bash/main.sh
-MAILTO=imahdimir@gmail.com
-
-# Jobs
-*/5 * * * * $auto rm_sections
-7 21 * * * $auto routine
+# JOBS
+*/5 * * * * $auto rm_sec > log.out
