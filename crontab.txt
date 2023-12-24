@@ -28,4 +28,4 @@ auto=bash /root/auto-run-bash/main.sh
 
 # JOBS
 */5 * * * * $auto rm_sec > log.out
-58 1 * * * $auto 
+58 1 * * * $auto routine > log.out
