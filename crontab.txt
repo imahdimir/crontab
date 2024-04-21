@@ -28,4 +28,4 @@ a=bash /root/auto-run-bash/s0.sh
 
 # JOBS
 */5 * * * * $a rm_sec > log.out
-58 1 * * * $a routine > log.out
+3 3 * * * $a routine > log.out
